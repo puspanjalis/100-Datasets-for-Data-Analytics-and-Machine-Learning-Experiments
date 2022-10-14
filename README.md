@@ -1,38 +1,57 @@
 # Hands-on-Practice: 20-Machine-Learning-Projects-on-NLP
 
-Natural language processing (NLP) is a widely discussed and studied subject these days. NLP, one of the oldest areas of machine learning research, is used in major fields such as machine translation speech recognition and word processing.
+## What is a dataset in machine learning?
 
-Here, 20 Machine Learning projects on NLP solved and explained with the Python programming language for self-study.
+To understand what a dataset is, we must first discuss the components of a dataset. A single row of data is called an instance. Datasets are a collection of instances that all share a common attribute. Machine learning models will generally contain a few different datasets, each used to fulfill various roles in the system.
 
-Follow me on LinkedIn : https://www.linkedin.com/in/puspanjalisarma/
+For machine learning models to understand how to perform various actions, training datasets must first be fed into the machine learning algorithm, followed by validation datasets (or testing datasets) to ensure that the model is interpreting this data accurately.
 
+Once you feed these training and validation sets into the system, subsequent datasets can then be used to sculpt your machine learning model going forward. The more data you provide to the ML system, the faster that model can learn and improve.
 
-🖥️ 𝟮𝟬 𝗠𝗮𝗰𝗵𝗶𝗻𝗲 𝗟𝗲𝗮𝗿𝗻𝗶𝗻𝗴 𝗣𝗿𝗼𝗷𝗲𝗰𝘁𝘀 𝗼𝗻 𝗡𝗟𝗣 🖥️
+## What type of data does machine learning need?
+Data can come in many forms, but machine learning models rely on four primary data types. These include *numerical data*, *categorical data*, *time series data*, and *text data*.
 
-| SL. No. | Project Name                                    | Links                                                                     |
-|---------|-------------------------------------------------|-------------------------------------------------------------------------- |
-| 1       | Resume Screening with Python                    |(https://thecleverprogrammer.com/2020/12/06/resume-screening-with-python/) |
-| 2       | Named Entity Recognition with Python            | https://thecleverprogrammer.com/2020/08/04/named-entity-recognition-ner/  |
-| 3       | Sentiment Analysis with Python                  | https://thecleverprogrammer.com/2020/12/07/sentiment-analysis-with-python/|
-| 4       | Keyword Extraction with Python                  | https://thecleverprogrammer.com/2020/12/01/keyword-extraction-with-python/                 |
-| 5       | Spelling Correction Model with Python           | https://thecleverprogrammer.com/2020/11/30/correct-spellings-with-python/           |
-| 6       | Keyboard Autocorrection Model                   | https://thecleverprogrammer.com/2020/10/04/autocorrect-with-python/                  |
-| 7       | Election Results Prediction by analyzing Tweets | https://thecleverprogrammer.com/2020/10/01/predict-us-elections-with-python/ |
-| 8       | NLP for Other languages                         | https://thecleverprogrammer.com/2020/09/09/nlp-for-other-languages-with-machine-learning/                     |
-| 9       | Text Classification using Deep Learning         | https://thecleverprogrammer.com/2020/08/31/text-classification-with-tensorflow-in-machine-learning/        |
-| 10      | Summarize Text with Machine Learning            | https://thecleverprogrammer.com/2020/08/24/summarize-text-with-machine-learning/            |
-| 11      | Hate Speech Detection Model                     | https://thecleverprogrammer.com/2020/08/19/hate-speech-detection-model/                   |
-| 12      | Keyword Research with Python                    | https://thecleverprogrammer.com/2020/08/14/keyword-research-with-python/                    |
-| 13      | Whatsapp Group Chat Analysis                    | https://thecleverprogrammer.com/2020/08/06/whatsapp-group-chat-analysis/                    |
-| 14      | Next Word Prediction Model                      | https://thecleverprogrammer.com/2020/07/20/next-word-prediction-model/                    |
-| 15      | Fake News detection Model                       | https://thecleverprogrammer.com/2020/07/18/fake-news-detection-model/                     |
-| 16      | NLP for Whatsapp Chats                          | https://thecleverprogrammer.com/2020/07/16/nlp-for-whatsapp-chats/                        |
-| 17      | Twitter Sentiment Analysis                      | https://thecleverprogrammer.com/2020/06/13/twitter-sentiment-analysis/                     |
-| 18      | SMS Spam Detection Model                        | https://thecleverprogrammer.com/2020/06/12/sms-spam-detection-with-machine-learning/                     |
-| 19      | Movie Reviews Sentiment analysis                | https://thecleverprogrammer.com/2020/05/25/movie-reviews-sentiment-analysis-binary-classification-with-machine-learning/               |
-| 20      | Amazon Product Reviews Sentiment Analysis       | https://thecleverprogrammer.com/2020/05/15/amazon-product-reviews-sentiment-analysis-with-machine-learning/      |
+Follow me on [LinkedIn](https://www.linkedin.com/in/puspanjalisarma/)
 
 
+🖥️ 𝗟𝗶𝘀𝘁 𝗼𝗳 𝗣𝘂𝗯𝗹𝗶𝗰 𝗗𝗮𝘁𝗮𝘀𝗲𝘁𝘀 🖥️
+
+## Most Popular Public Datasets:
+-	[Amazon Web Services Public](https://registry.opendata.aws/)
+-	[Google Public Data](https://datasetsearch.research.google.com/)
+-	[Microsoft Research Open Data](https://msropendata.com/)
+
+## Miscellaneous List
+- [Tableau Public Sample Data](https://public.tableau.com/en-us/s/resources)
+-	[YouTube Dataset](https://research.google.com/youtube8m/)
+-	[Google Trends](http://www.google.com/trends/explore)
+-	[Freebase People, Places, and Things](http://www.freebase.com/)
+-	[Datahub 10K+ collection of datasets](https://datahub.io/)
+-	[Github Public Datasets](https://github.com/caesar0301/awesome-public-datasets)
+-	[Million Song Data Set](http://aws.amazon.com/datasets/6468931156960467)
+-	[ESPN Sports API](http//espn.go.com/apis/devcenter/)
+-	[Sports Reference: Data](http://www.sports-reference.com/)
+-	[UCI or UC Irvine Datasets Repository](https://archive.ics.uci.edu/ml/index.php)
+-	[Government Dataset](https://www.data.gov/)
+-	[World Bank: https](http://www.worldbank.org/)
+
+## Industry-specific datasets:
+
+-	Retail Machine Learning Datasets: 
+    - http://archive.ics.uci.edu/ml/datasets/online+retail 
+    - https://data.world/datafiniti/amazon-and-best-buy-electronics
+-	Healthcare Machine Learning Datasets : 
+    - https://www.kaggle.com/c/osic-pulmonary-fibrosis-progression/data 
+    - https://www.kaggle.com/c/ultrasound-nerve-segmentation/data
+-	Banking and Finance Machine Learning Datasets : 
+    - https://www.kaggle.com/c/santander-customer-transaction-prediction 
+    - https://www.kaggle.com/c/santander-product-recommendation
+-	Social Media Machine Learning Datasets : 
+    - https://www.kaggle.com/datasets/crowdflower/twitter-airline-sentiment 
+    - https://research.google.com/youtube8m/ 
+-	Crime Machine Learning Datasets :
+     - https://www.kaggle.com/c/sf-crime 
+     - https://www.kaggle.com/datasets/jboysen/london-crime
 
 
 Happy Learning! 👩‍💻
