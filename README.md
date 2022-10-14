@@ -1,4 +1,4 @@
-# Hands-on-Practice: 20-Machine-Learning-Projects-on-NLP
+# 100+ Datasets for Data Analytics and Machine Learning Experiments
 
 ## What is a dataset in machine learning?
 
@@ -9,6 +9,7 @@ For machine learning models to understand how to perform various actions, traini
 Once you feed these training and validation sets into the system, subsequent datasets can then be used to sculpt your machine learning model going forward. The more data you provide to the ML system, the faster that model can learn and improve.
 
 ## What type of data does machine learning need?
+
 Data can come in many forms, but machine learning models rely on four primary data types. These include *numerical data*, *categorical data*, *time series data*, and *text data*.
 
 Follow me on [LinkedIn](https://www.linkedin.com/in/puspanjalisarma/)
